@@ -1,18 +1,10 @@
 import 'package:flutter/material.dart';
 
+import '2_center_container_text.dart';
+
 void main() {
-  MyApp app1 = new MyApp();
-  runApp(app1);
+  Example2 ex1 = new Example2();
+  runApp(ex1);
 }
 
-class MyApp extends StatelessWidget
-{
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: "First Example",
-      home: Text("THE EASYLEARN ACADEMY - BHAVNAGAR"),
-    );
-  }
 
-}
